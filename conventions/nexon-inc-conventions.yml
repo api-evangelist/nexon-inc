@@ -1,0 +1,28 @@
+generated: '2026-07-20'
+method: searched
+source: https://openapi.nexon.com/guide/request-api/
+api: NEXON Open API
+base_url: https://open.api.nexon.com/
+authentication:
+  style: api-key
+  header: x-nxopen-api-key
+  detail: Per-application API key issued on application registration; sent on every request.
+  ref: authentication/nexon-inc-authentication.yml
+versioning:
+  scheme: uri-path
+  detail: 'Resource paths embed a version segment, e.g. /heroes/v1/id. Each game exposes its
+    own versioned resource paths under open.api.nexon.com.'
+rate_limiting:
+  scope: per-application
+  detail: 'API usage limits are calculated on a per-application basis (documented in the
+    Getting Started and Analytics guides). No published numeric limit was found; the Analytics
+    Dashboard reports per-application usage.'
+  signal: undocumented
+idempotency:
+  supported: false
+  detail: No idempotency-key contract is documented; the read-oriented game-data endpoints are GET requests.
+pagination:
+  detail: Not documented in a cross-cutting form; individual game APIs define their own query parameters.
+notes:
+- Requests target open.api.nexon.com; the human developer portal is openapi.nexon.com.
+- Per-game API references are browsed under the portal Games menu.

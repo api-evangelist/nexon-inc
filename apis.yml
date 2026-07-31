@@ -1,8 +1,24 @@
 aid: nexon-inc
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nexon-inc.png
 name: Nexon Inc
-description: 'Nexon Inc is a company surfaced as a portfolio company of insight-partners and added to
-  the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Nexon (operated by Nexon Korea Co., Ltd.) is a global video game publisher whose
+  NEXON Open API platform at openapi.nexon.com gives developers programmatic access to per-game
+  data such as character, ranking, and match information. Requests are authenticated with a
+  per-application API key sent in the x-nxopen-api-key HTTP header and served from open.api.nexon.com;
+  the developer portal provides application registration, usage analytics, per-game API references,
+  and integration guides.'
 url: https://raw.githubusercontent.com/api-evangelist/nexon-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +28,38 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
-apis: []
+- Gaming
+- Video Games
+- Game Data
+- Developer API
+- Open API
+apis:
+- name: NEXON Open API
+  description: 'Programmatic access to per-game data (character, ranking, match, and metadata)
+    for Nexon titles. Authenticated with a per-application API key sent in the x-nxopen-api-key
+    HTTP header. Versioned resource paths (e.g. /heroes/v1/id) served from open.api.nexon.com.'
+  humanURL: https://openapi.nexon.com/
+  baseURL: https://open.api.nexon.com/
+  tags:
+  - Game Data
+  - Open API
+  properties:
+  - type: DeveloperPortal
+    url: https://openapi.nexon.com/
+  - type: Documentation
+    url: https://openapi.nexon.com/guide/
+  - type: APIReference
+    url: https://openapi.nexon.com/guide/request-api/
+  - type: GettingStarted
+    url: https://openapi.nexon.com/guide/prepare-in-advance/
+  - type: Authentication
+    url: authentication/nexon-inc-authentication.yml
+  - type: Conventions
+    url: conventions/nexon-inc-conventions.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -25,3 +68,28 @@ maintainers:
 common:
 - type: Website
   url: http://www.nexon.net/
+- type: DeveloperPortal
+  url: https://openapi.nexon.com/
+- type: Documentation
+  url: https://openapi.nexon.com/guide/
+- type: APIReference
+  url: https://openapi.nexon.com/guide/request-api/
+- type: GettingStarted
+  url: https://openapi.nexon.com/guide/prepare-in-advance/
+- type: SignUp
+  url: https://openapi.nexon.com/my-application/create-app/
+- type: Support
+  url: https://openapi.nexon.com/support/faq/
+- type: TermsOfService
+  url: https://openapi.nexon.com/support/terms/
+- type: Authentication
+  url: authentication/nexon-inc-authentication.yml
+- type: Conventions
+  url: conventions/nexon-inc-conventions.yml
+- type: DomainSecurity
+  url: security/nexon-inc-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

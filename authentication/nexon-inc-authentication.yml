@@ -1,0 +1,20 @@
+generated: '2026-07-20'
+method: searched
+source: https://openapi.nexon.com/guide/prepare-in-advance/
+docs: https://openapi.nexon.com/guide/request-api/
+summary:
+  types: [apiKey]
+  api_key_in: [header]
+  oauth2_flows: []
+schemes:
+- name: nexonApiKey
+  type: apiKey
+  in: header
+  parameter_name: x-nxopen-api-key
+  description: 'Per-application API key. A developer signs in with a NEXON ID, registers an
+    application, and is automatically issued an API key that acts as the authentication token.
+    The key must be included in the x-nxopen-api-key HTTP header on every request to
+    open.api.nexon.com. Usage limits are enforced per application.'
+  issuance: https://openapi.nexon.com/my-application/create-app/
+  sources:
+  - https://openapi.nexon.com/guide/request-api/
