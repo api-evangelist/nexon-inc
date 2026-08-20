@@ -36,6 +36,14 @@ tags:
 - Video Games
 - Game Data
 - Developer API
+- OpenAPI
+tags_raw:
+- Company
+- Consumer
+- Gaming
+- Video Games
+- Game Data
+- Developer API
 - Open API
 apis:
 - name: NEXON Open API
@@ -45,6 +53,9 @@ apis:
   humanURL: https://openapi.nexon.com/
   baseURL: https://open.api.nexon.com/
   tags:
+  - Game Data
+  - OpenAPI
+  tags_raw:
   - Game Data
   - Open API
   properties:
