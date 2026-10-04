@@ -24,7 +24,7 @@ accessModel:
   generated: '2026-09-03'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nexon-inc.png
-name: Nexon Inc
+name: Nexon
 description: 'Nexon (operated by Nexon Korea Co., Ltd.) is a global video game publisher whose
   NEXON Open API platform at openapi.nexon.com gives developers programmatic access to per-game
   data such as character, ranking, and match information. Requests are authenticated with a
@@ -116,3 +116,4 @@ x-enrichment:
   status: enriched
   artifacts_added: 3
   pass: local-v1
+x-legal-name: Nexon Inc
