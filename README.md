@@ -1,4 +1,4 @@
-# Nexon Inc
+# Nexon
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,6 +64,90 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Nexon Inc is a company surfaced as a portfolio company of insight-partners and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.
+Nexon (operated by Nexon Korea Co., Ltd.) is a global video game publisher whose NEXON Open API platform at openapi.nexon.com gives developers programmatic access to per-game data such as character, ranking, and match information. Requests are authenticated with a per-application API key sent in the x-nxopen-api-key HTTP header and served from open.api.nexon.com; the developer portal provides application registration, usage analytics, per-game API references, and integration guides.
 
-Backed by: insight-partners — http://www.nexon.net/
+**Areas:** Company · Consumer · Gaming · Video Games · Game Data · Developer API · OpenAPI
+
+## Nexon on APIs.io
+
+Everything profiled for Nexon is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/nexon-inc/](https://apis.io/providers/nexon-inc/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [NEXON Open API](https://apis.io/apis/nexon-inc/nexon-open-api/) — Programmatic access to per-game data (character, ranking, match, and metadata) for Nexon titles. Authenticated with a per-application API key sent in the…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Nexon Inc Authentication](https://apis.io/security/nexon-inc/nexon-inc-authentication/)
+- [Nexon Inc Domain Security](https://apis.io/security/nexon-inc/nexon-inc-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](http://www.nexon.net/)
+- [Documentation](https://openapi.nexon.com/guide/)
+- [Getting started](https://openapi.nexon.com/guide/prepare-in-advance/)
+- [API reference](https://openapi.nexon.com/guide/request-api/)
+- [Sign up](https://openapi.nexon.com/my-application/create-app/)
+- [Support](https://openapi.nexon.com/support/faq/)
+- [Terms of service](https://openapi.nexon.com/support/terms/)
+
+## API Evangelist rating
+
+**Kin Score 22.4** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 54.8 |
+| Access clarity | 23.7 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 15.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/nexon-inc/](https://apis.io/providers/nexon-inc/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Nexon: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/nexon-inc/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
